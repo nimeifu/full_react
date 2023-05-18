@@ -9,4 +9,7 @@ You can type "npm install react" in terminal
 To run this project, type "npm start" or "npm run" in terminal
 
 # Features: 
-![] (https://static.vecteezy.com/system/resources/previews/000/639/070/original/mouse-rat-icon-vector.jpg)
+![](https://cdn4.iconfinder.com/data/icons/material-animal/24/Mouse-256.png)
+Less mouse moving distance
+
+
