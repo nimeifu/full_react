@@ -114,7 +114,7 @@ const Home = () => {
       >
         <div
           className="bg-cover bg-no-repeat flex flex-col h-full items-center justify-start m-auto pb-[33px] w-full"
-          style={{ backgroundImage: "url('images/img_group1.png')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/img_group1.png)` }}
         >
           <div className="flex flex-col md:gap-10 gap-[550px] justify-start w-full">
             <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between w-full">
@@ -309,7 +309,7 @@ const Home = () => {
           </div>
         </div>
         <Img
-          src="images/img_bestpomodoroa.png"
+          src={`${process.env.PUBLIC_URL}/images/img_bestpomodoroa.png`}
           className="h-[1024px] sm:h-auto object-cover w-3/5 md:w-full"
           alt="bestpomodoroa"
         />
@@ -322,7 +322,7 @@ const Home = () => {
       >
         <div
           className="bg-cover bg-no-repeat flex flex-col h-screen items-start justify-end p-[11px] w-full"
-          style={{ backgroundImage: "url('images/img_cafe.jpg')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/img_cafe.jpg)` }}
         >
           <div
             className="flex flex-col items-center justify-center"
@@ -332,32 +332,32 @@ const Home = () => {
               <Slice>
                 <a href="https://surf.jackbuehner.com/" target="_blank">
                   <img
-                    src="images/img_surficon161.png"
+                    src={`${process.env.PUBLIC_URL}/images/img_surficon161.png`}
                     className="h-14 md:h-auto object-cover w-14"
                   />
                 </a>
               </Slice>
               <Slice>
                 <img
-                  src="images/img_chatbubbles.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/img_chatbubbles.jpg`}
                   className="h-14 md:h-auto object-cover w-14"
                 />
               </Slice>
               <Slice>
                 <img
-                  src="images/img_seaicon141.png"
+                  src={`${process.env.PUBLIC_URL}/images/img_seaicon141.png`}
                   className="h-14 md:h-auto object-cover w-14"
                 />
               </Slice>
               <Slice onClick={handleSliceTimer}>
                 <img
-                  src="images/img_timer.png"
+                  src={`${process.env.PUBLIC_URL}/images/img_timer.png`}
                   className="h-14 md:h-auto object-cover w-14"
                 />
               </Slice>
               <Slice>
                 <img
-                  src="images/img_turntable.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/img_turntable.jpg`}
                   className="h-14 md:h-auto object-cover w-14"
                 />
               </Slice>
@@ -380,7 +380,7 @@ const Home = () => {
       >
         <div
           className="bg-cover bg-no-repeat flex flex-col h-[1024px] items-start justify-end p-[11px] w-full"
-          style={{ backgroundImage: "url('images/img_ethandowl2tqd.png')" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/img_ethandowl2tqd.png)` }}
         >
           <div className="absolute flex flex-col gap-[27px] h-max inset-y-[0] items-center justify-start left-1/4 my-auto md:px-5 w-[41%]">
             <Text
