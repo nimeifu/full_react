@@ -1,3 +1,7 @@
+View this project on https://nimeifu.github.io/full_react/
+
+or run on your local machine
+
 Before running this project, make sure react is installed. 
 
 You can type "npm install react" in terminal
