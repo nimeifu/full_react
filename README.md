@@ -8,4 +8,4 @@ You can type "npm install react" in terminal
 
 To run this project, type "npm start" or "npm run" in terminal
 
-#Features: 
+# Features: 
